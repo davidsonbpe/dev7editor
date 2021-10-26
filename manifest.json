@@ -4,7 +4,7 @@
     "description": "dev7editor by Davidsonbpe Web Apps Game Developer",
     "lang": "pt-BR",
     "start_url": "/dev7editor/?app",
-    "scope": "/dev7editor/",
+    "scope": "./",
     "display": "fullscreen",
     "orientation": "landscape",
     "theme_color": "#0c0d17",
