@@ -757,7 +757,7 @@
                 console.log("[Aplicativo] funcionário de serviço ativo encontrado, não há necessidade de registrar");
             } else {
                 navigator.serviceWorker
-                    .register("/sw.js", {
+                    .register("/dev7editor/sw.js", {
                         scope: "/dev7editor/"
                     })
                     .then(function (reg) {
