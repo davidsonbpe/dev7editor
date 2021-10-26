@@ -737,7 +737,7 @@
             } else {
                 navigator.serviceWorker
                     .register("/sw.js", {
-                        scope: "/"
+                        scope: "./"
                     })
                     .then(function (reg) {
                         console.log("[Aplicativo] O trabalhador do serviço foi registrado para o escopo: " + reg.scope);
