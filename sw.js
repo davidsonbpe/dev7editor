@@ -1,4 +1,4 @@
-var cacheName = 'apppwa-v1';
+var cacheName = 'dev7editor-v1';
 var filesToCache = [
     './',
     './index.html',
